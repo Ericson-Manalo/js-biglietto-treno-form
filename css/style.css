@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to right, #2B5876, #4E4376);
+}
+
+div.card{
+    width: 550px;
+    margin: 0 auto;
+}
