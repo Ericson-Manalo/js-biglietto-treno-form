@@ -26,7 +26,6 @@ button.addEventListener('click', function(){
 
     let price = kmToDo.value * 0.233;
 
-
     if (userAge.value < 18){
         price = price - (price * (19.4 / 100));
     }else if (userAge.value > 65){
