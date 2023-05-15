@@ -16,3 +16,24 @@ MILESTONE 2:
 > Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo).  */
 
 const kmToDo = document.getElementById('km-to-do');
+
+const userAge = document.getElementById('user-age');
+
+const button = document.querySelector('button');
+
+let price = kmToDo.value * 0.233;
+
+
+button.addEventListener('click', function(){
+
+
+    if (userAge.value < 18){
+        price = price - (price * (19.4 / 100));
+    }else if (userAge.value > 65){
+        price = price - (price * (37.7 / 100));
+    }
+
+    console.log(price);
+});
+
+
