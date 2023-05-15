@@ -21,10 +21,10 @@ const userAge = document.getElementById('user-age');
 
 const button = document.querySelector('button');
 
-let price = kmToDo.value * 0.233;
-
 
 button.addEventListener('click', function(){
+
+    let price = kmToDo.value * 0.233;
 
 
     if (userAge.value < 18){
