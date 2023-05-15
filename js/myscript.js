@@ -33,7 +33,7 @@ button.addEventListener('click', function(){
         price = price - (price * (37.7 / 100));
     }
 
-    console.log(price);
+    console.log(price.toFixed(2));
 });
 
 
