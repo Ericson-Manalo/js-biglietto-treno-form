@@ -1,8 +1,16 @@
 body{
-    background-image: linear-gradient(to right, #2B5876, #4E4376);
+    background: linear-gradient(to right, #2B5876, #4E4376);
 }
 
 div.card{
     width: 550px;
     margin: 0 auto;
+}
+
+.button{
+    background: linear-gradient(to right, #2B5876, #4E4376);
+    color: white;
+    padding: .5rem;
+    border-style: none;
+    border-radius: 10px;
 }
