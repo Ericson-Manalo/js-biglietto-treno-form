@@ -26,13 +26,18 @@ button.addEventListener('click', function(){
 
     let price = kmToDo.value * 0.233;
 
+
+
     if (userAge.value < 18){
         price = price - (price * (19.4 / 100));
+        
     }else if (userAge.value > 65){
         price = price - (price * (37.7 / 100));
     }
 
-    console.log(price.toFixed(2));
+    const finalPrice = document.querySelector('p');
+    finalPrice.innerHTML = "Il prezzo finale è di " +price.toFixed(2) +"€";
+
 });
 
 

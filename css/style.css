@@ -3,8 +3,9 @@ body{
 }
 
 div.card{
-    width: 550px;
+    width: 500px;
     margin: 0 auto;
+    border-radius: 30px;
 }
 
 .button{
@@ -13,4 +14,12 @@ div.card{
     padding: .5rem;
     border-style: none;
     border-radius: 10px;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    margin-top: 1rem;
+    border-radius: 6px;
 }
